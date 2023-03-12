@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container p-5 my-5 d-flex justify-content-center align-items-center ">
+    <div class="container p-5 m-5 d-flex justify-content-center align-items-center ">
         <div class="col-6 mx-5 d-flex justify-content-center align-items-center rounded p-5 ">
             <div class="containers">
             <div class="left">
@@ -21,7 +21,7 @@
             </div>
         </div>
         </div>
-        <div class="col-6 mx-5 bg-white border rounded px-5 py-3 shadow-sm ">
+        <div class="col-6 m-5 bg-white border rounded px-5 py-4 shadow-sm ">
                 <h2  class="text-center mb-3 text-danger">Login</h2>
             <form>
                 <div class="mb-3">
@@ -33,7 +33,7 @@
                     <input type="password" class="form-control" id="password">
                 </div>
                 <button style="width: 100%; font-size:23px"  type="submit" class="btn my-3 text-white bg-danger">Submit</button>
-                <p class="text-center mt-3">don't have an account? <a href="#">register now</a></p>
+                <p class="text-center mt-3">don't have an account? <a href="./assets/pages/signup.php">register now</a></p>
             </form>
         </div>
     </div>
