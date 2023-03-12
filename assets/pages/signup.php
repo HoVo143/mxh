@@ -67,7 +67,7 @@
                     </label>
                 </div>
                 <button style="width: 100%; font-size:23px"  type="submit" class="btn my-2 text-white bg-danger">Submit</button>
-                <p class="text-center mt-2">already have an account? <a href="#">login now</a></p>
+                <!-- <p class="text-center mt-2">already have an account? <a href="./login.php">login now</a></p> -->
             </form>
         </div>
     </div>

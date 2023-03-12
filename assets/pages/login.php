@@ -11,8 +11,8 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container p-5 m-5 d-flex justify-content-center align-items-center ">
-        <div class="col-6 mx-5 d-flex justify-content-center align-items-center rounded p-5 ">
+    <div class="container p-5 d-flex justify-content-center align-items-center ">
+        <div class="col-6 m-5 d-flex justify-content-center align-items-center rounded p-5 ">
             <div class="containers">
             <div class="left">
                 <h3  class="text-center">Hello friends</h3>
@@ -26,11 +26,11 @@
             <form>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email </label>
-                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="password">
+                    <input type="password" class="form-control" id="password" required>
                 </div>
                 <button style="width: 100%; font-size:23px"  type="submit" class="btn my-3 text-white bg-danger">Submit</button>
                 <p class="text-center mt-3">don't have an account? <a href="./assets/pages/signup.php">register now</a></p>
